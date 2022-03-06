@@ -1,6 +1,14 @@
-# Project to utilize the Pokemon API 
+# Pokemon Horoscope
+Have you ever realized that people sometimes justify their attitudes, behaviour and reactions to 
+different life situations just because of what their horoscope (star sign) describes their personality based on 
+their date of birth? 
+\
+\
+With this Pokemon Horoscope, a user inputs their name and the site randomly assigns them a pokemon name, 
+a super power and a super move, from the Pokemon API. There are infinite combinations of the different 
+pokemons, abilities and moves. 
 
-### Tech Stack to use 
+### Tech Stack used
 * HTML 
 * CSS 
 * JavaScript 
@@ -20,3 +28,4 @@ URL to the site and a link to the GitHub Repository
 
 **Completion time:**
 5 Days - Due Tuesday, March 8 2022
+
