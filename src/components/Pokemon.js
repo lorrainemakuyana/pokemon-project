@@ -1,6 +1,10 @@
 import React from 'react'
 
-export default function RandomNumbers({handleChange, handleSubmit}) {
+// Render the app component Pokemon
+// handleChange and handleSubmit props passed from App.js 
+// Both declared and implemented in App.js 
+
+function Pokemon({handleChange, handleSubmit}) {
 
     return (
         <div className="rand_main_container">
@@ -13,7 +17,7 @@ export default function RandomNumbers({handleChange, handleSubmit}) {
                         <input name='user' id='my_name' type="text" placeholder="Your name is ..." onChange={handleChange}></input>
                     </div>
                     <div className='click_info'>
-                        Now click the "Check Now" button below
+                        Now click the "Check Now" button below <span>and scroll to see results</span>
                     </div>
                 </div>
                 <button type="submit">Check Now</button>
@@ -21,3 +25,5 @@ export default function RandomNumbers({handleChange, handleSubmit}) {
         </div>
     )
 }
+
+export default Pokemon
